@@ -28,6 +28,7 @@ void onTimer()
   if(tick2 >9)
   {
     tick2 = 0;
+    i = 1;
   }
   if(digitalRead(3) == HIGH)
   {
